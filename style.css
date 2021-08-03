@@ -1,0 +1,120 @@
+img{
+  width:500px;
+  height: 300px;
+  margin: 30px;
+  border-radius: 5%;
+}
+
+.section{
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+.parag{
+  width: 400px;
+}
+
+.datingPart{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 60px;
+}
+.days{
+  background-color: green;
+  text-align: center;
+  width: 80px;
+}
+
+.hours{
+  background-color: green;
+  text-align: center;
+  width: 80px;
+}
+.minutes{
+  background-color: green;
+  text-align: center;
+  width: 80px;
+}
+.seconds{
+  background-color: green;
+  text-align: center;
+  width: 80px;
+
+}
+h2,h3{
+  color:white;
+}
+
+.title-date{
+  color:red;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  margin-right:10px;
+}
+.title-time{
+  color:red;
+  font-size: 1.5rem;
+}
+.expired{
+  font-style: italic;
+  color: red;
+}
+
+/* @media screen and (min-width: 992px) { */
+@media screen and (max-width:700px) {
+  .section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+  }
+
+  img{
+    width:430px;
+    height: 300px;
+    margin: 30px;
+    border-radius: 3%;
+  }
+  .container{
+    width:450px;
+    align-items: center;
+    margin-left: 15px;
+  }
+  span{
+    font-size: 1rem;
+  }
+  .title-date{
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: bold;
+  }
+  .title-time{
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: bold;
+  }
+  .parag{
+    width: 440px;
+  }
+  .days{
+    background-color: green;
+    text-align: center;
+    width: 60px;
+  }
+
+  .hours{
+    background-color: green;
+    text-align: center;
+    width: 60px;
+  }
+  .minutes{
+    background-color: green;
+    text-align: center;
+    width: 60px;
+  }
+  .seconds{
+    background-color: green;
+    text-align: center;
+    width: 60px;
+
+  }
+}
